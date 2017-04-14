@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="lk\ConfigReader.h">
+      <Filter>lk</Filter>
+    </ClInclude>
+    <ClInclude Include="lk\ImageStats.h">
+      <Filter>lk</Filter>
+    </ClInclude>
+    <ClInclude Include="lk\LK2CSV.h">
+      <Filter>lk</Filter>
+    </ClInclude>
+    <ClInclude Include="lk\LKTracker.h">
+      <Filter>lk</Filter>
+    </ClInclude>
+    <ClInclude Include="lk\TiledMotion.h">
+      <Filter>lk</Filter>
+    </ClInclude>
+    <ClInclude Include="lk\TrackPoint.h">
+      <Filter>lk</Filter>
+    </ClInclude>
+    <ClInclude Include="lk\TrajFinder.h">
+      <Filter>lk</Filter>
+    </ClInclude>
+    <ClInclude Include="util\ImCrop.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\ImgUndistort.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\LensDistortionCorrector.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\Util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\Arg.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\ArgException.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\ArgTraits.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\CmdLine.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\CmdLineInterface.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\CmdLineOutput.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\Constraint.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\DocBookOutput.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\HelpVisitor.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\IgnoreRestVisitor.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\MultiArg.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\MultiSwitchArg.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\OptionalUnlabeledTracker.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\StandardTraits.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\StdOutput.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\SwitchArg.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\UnlabeledMultiArg.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\UnlabeledValueArg.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\ValueArg.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\ValuesConstraint.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\VersionVisitor.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\Visitor.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\XorHandler.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tclap\ZshCompletionOutput.h">
+      <Filter>util\tclap</Filter>
+    </ClInclude>
+    <ClInclude Include="util\VideoReaders\AbstractVideoReader.h">
+      <Filter>util\VideoReaders</Filter>
+    </ClInclude>
+    <ClInclude Include="util\VideoReaders\OpenCVVideoReader.h">
+      <Filter>util\VideoReaders</Filter>
+    </ClInclude>
+    <ClInclude Include="util\paramio\ParamIO.h">
+      <Filter>util\paramio</Filter>
+    </ClInclude>
+    <ClInclude Include="util\paramio\XML_Node.h">
+      <Filter>util\paramio</Filter>
+    </ClInclude>
+    <ClInclude Include="util\paramio\XmlNotify.h">
+      <Filter>util\paramio</Filter>
+    </ClInclude>
+    <ClInclude Include="util\paramio\XmlParser.h">
+      <Filter>util\paramio</Filter>
+    </ClInclude>
+    <ClInclude Include="util\paramio\XmlStream.h">
+      <Filter>util\paramio</Filter>
+    </ClInclude>
+    <ClInclude Include="util\paramio\XmlUtil.h">
+      <Filter>util\paramio</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="mainfile.cpp" />
+    <ClCompile Include="lk\ConfigReader.cpp">
+      <Filter>lk</Filter>
+    </ClCompile>
+    <ClCompile Include="lk\ImageStats.cpp">
+      <Filter>lk</Filter>
+    </ClCompile>
+    <ClCompile Include="lk\LKTracker.cpp">
+      <Filter>lk</Filter>
+    </ClCompile>
+    <ClCompile Include="lk\TiledMotion.cpp">
+      <Filter>lk</Filter>
+    </ClCompile>
+    <ClCompile Include="lk\TrajFinder.cpp">
+      <Filter>lk</Filter>
+    </ClCompile>
+    <ClCompile Include="util\ImCrop.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\ImgUndistort.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\LensDistortionCorrector.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\Util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\VideoReaders\AbstractVideoReader.cpp">
+      <Filter>util\VideoReaders</Filter>
+    </ClCompile>
+    <ClCompile Include="util\VideoReaders\OpenCVVideoReader.cpp">
+      <Filter>util\VideoReaders</Filter>
+    </ClCompile>
+    <ClCompile Include="util\paramio\ParamIO.cpp">
+      <Filter>util\paramio</Filter>
+    </ClCompile>
+    <ClCompile Include="util\paramio\XML_Node.cpp">
+      <Filter>util\paramio</Filter>
+    </ClCompile>
+    <ClCompile Include="util\paramio\XmlParser.cpp">
+      <Filter>util\paramio</Filter>
+    </ClCompile>
+    <ClCompile Include="util\paramio\XmlStream.cpp">
+      <Filter>util\paramio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="util">
+      <UniqueIdentifier>{35cd0e25-25d9-4dfd-82d0-337d5361fac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lk">
+      <UniqueIdentifier>{26cdcad3-b618-4e94-863e-417c48e17c6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\tclap">
+      <UniqueIdentifier>{74c6545f-fb35-4699-9fd0-d243e2520890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\VideoReaders">
+      <UniqueIdentifier>{56beb313-926d-4261-973f-fcb5a7d4abe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\paramio">
+      <UniqueIdentifier>{b03885a5-28c9-4477-81da-fc7e4f9d8bfc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

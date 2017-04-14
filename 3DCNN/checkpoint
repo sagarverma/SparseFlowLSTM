@@ -1,0 +1,2 @@
+model_checkpoint_path: "/media/Drive2/sagar/MMEAR/codes/3DCNN/3D_CNN_HUJI.tflearn"
+all_model_checkpoint_paths: "/media/Drive2/sagar/MMEAR/codes/3DCNN/3D_CNN_HUJI.tflearn"
